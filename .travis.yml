@@ -11,7 +11,7 @@ before_deploy: npm install now --no-save # Install Now CLI on Travis
 script:
   - "npm run lint"
   - "npm run test"
-  - npx now --token $nowtoken && npx now --token $nowtoken alias deliieva-$TRAVIS_BRANCH.now.sh
+  - npx now --token AsgBOUspoGrK-1TES9Q8OQ && npx now --token AsgBOUspoGrK-1TES9Q8OQ
 
 
 #deploy:
