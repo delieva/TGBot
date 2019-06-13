@@ -114,6 +114,7 @@ const functions = {
 
 const scrapper = async (url, type) => {
   const dom = await getDOM(url)
+	console.log("RUNNING")
   return beautyfy(functions[type](dom))
 }
 
