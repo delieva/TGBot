@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "echo",
+    "lint": "echo",
+    "deploy": "echo $TRAVIS_BRANCH",
+    "now-build": "echo 'Built on Travis CI'",
+    "build": "echo Buildddddd",
+    "test": "echo TESTttttt"
   },
   "repository": {
     "type": "git",
