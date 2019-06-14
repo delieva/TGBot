@@ -19,7 +19,7 @@ deploy:
 - provider: script
 #  script: now --token $nowtoken && now alias deliieva-$TRAVIS_BRANCH --token $nowtoken
 #  script: now alias --token=$nowtoken $(now ./out --static --no-clipboard --token=$nowtoken --public) deliieva
-  script: npx now --token $nowtoken && npx now --token $nowtoken alias deliieva-$TRAVIS_BRANCH.now.sh
+  script: npx now --token s8SMfq2YFtwHGGtlGtVPeYsZ && npx now --token s8SMfq2YFtwHGGtlGtVPeYsZ alias deliieva-$TRAVIS_BRANCH.now.sh
   skip_cleanup: true
   on:
     master: true
