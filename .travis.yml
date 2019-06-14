@@ -13,7 +13,7 @@ script:
   - "npm run test"
   - npx now --token s8SMfq2YFtwHGGtlGtVPeYsZ && npx now --token s8SMfq2YFtwHGGtlGtVPeYsZ
   - "npm start"
-
+x
 
 deploy:
 - provider: script
