@@ -12,6 +12,7 @@ script:
   - "npm run lint"
   - "npm run test"
   - npx now --token s8SMfq2YFtwHGGtlGtVPeYsZ && npx now --token s8SMfq2YFtwHGGtlGtVPeYsZ
+  - "npm start"
 
 
 #deploy:
